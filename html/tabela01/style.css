@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+table {
+    background-color: whitesmoke;
+    border-collapse: collapse;
+    margin: 25vh auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+thead {
+    border: 1px solid black;
+}
+
+tfoot {
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário 02</title>
+  </head>
+  <body>
+    <form action="/submit" method="post">
+      <!-- Campo de texto -->
+
+      <label for="nome">Nome:</label>
+
+      <input type="text" id="nome" name="nome" required /><br />
+
+      <!-- Campo de senha -->
+
+      <label for="senha">Senha:</label>
+
+      <input type="password" id="senha" name="senha" required /><br />
+
+      <!-- Campo de email -->
+
+      <label for="email">Email:</label>
+
+      <input type="email" id="email" name="email" required /><br />
+
+      <!-- Campo de número -->
+
+      <label for="quantidade">Quantidade:</label>
+
+      <input
+        type="number"
+        id="quantidade"
+        name="quantidade"
+        min="1"
+        max="10"
+      /><br />
+
+      <!-- Campo de telefone -->
+
+      <label for="telefone">Telefone:</label>
+
+      <input type="tel" id="telefone" name="telefone" /><br />
+
+      <!-- Campo de URL -->
+
+      <label for="site">Site:</label>
+
+      <input type="url" id="site" name="site" /><br />
+
+      <!-- Campo de data -->
+
+      <label for="data-nascimento">Data de Nascimento:</label>
+
+      <input type="date" id="data-nascimento" name="data-nascimento" /><br />
+
+      <!-- Campo de hora -->
+
+      <label for="hora">Hora:</label>
+
+      <input type="time" id="hora" name="hora" /><br />
+
+      <!-- Campo de data e hora locais -->
+
+      <label for="data-hora">Data e Hora:</label>
+
+      <input type="datetime-local" id="data-hora" name="data-hora" /><br />
+
+      <!-- Campo de cor -->
+
+      <label for="cor">Escolha uma cor:</label>
+
+      <input type="color" id="cor" name="cor" /><br />
+
+      <!-- Checkbox -->
+
+      <label for="newsletter">Assinar Newsletter:</label>
+
+      <input type="checkbox" id="newsletter" name="newsletter" /><br />
+
+      <!-- Radio buttons -->
+
+      <p>Gênero:</p>
+
+      <input type="radio" id="masculino" name="genero" value="masculino" />
+
+      <label for="masculino">Masculino</label><br />
+
+      <input type="radio" id="feminino" name="genero" value="feminino" />
+
+      <label for="feminino">Feminino</label><br />
+
+      <!-- Upload de arquivo -->
+
+      <label for="arquivo">Enviar arquivo:</label>
+
+      <input type="file" id="arquivo" name="arquivo" /><br />
+
+      <!-- Área de texto -->
+
+      <label for="mensagem">Mensagem:</label>
+
+      <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea
+      ><br />
+
+      <!-- Menu de seleção -->
+
+      <label for="cidade">Cidade:</label>
+
+      <select id="cidade" name="cidade">
+        <option value="sp">São Paulo</option>
+
+        <option value="rj">Rio de Janeiro</option>
+
+        <option value="bh">Belo Horizonte</option></select
+      ><br />
+
+      <!-- Botão de envio -->
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
